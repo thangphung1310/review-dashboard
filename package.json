@@ -1,0 +1,29 @@
+{
+  "name": "jm-review-count",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "sdev": "nodemon ./bin/www",
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.9",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "mongoose": "^5.12.12",
+    "morgan": "~1.9.1",
+    "node-cron": "^3.0.0",
+    "puppeteer": "^9.1.1"
+  },
+  "main": "app.js",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
